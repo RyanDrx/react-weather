@@ -4,7 +4,6 @@ var WeatherForm = React.createClass({
     onWeatherFormSubmit: function (e) {
         e.preventDefault();
 
-    
         var location = this.refs.location.value;
 
         if (location.length > 0) {
