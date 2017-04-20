@@ -22,7 +22,7 @@ var About = (props) => {
                     <a href='https://facebook.github.io/react/'> React.js</a> - Javascript Framework
                 </li>
                 <li>
-                    <a href='https://github.com/RyanDrx/react-weather'>GitHub </a>For this Site
+                    <a href='https://github.com/RyanDrx/react-weather'>GitHub </a> repo for this Site
                 </li>
                 <li>
                     <a href="http://openweathermap.org/">OpenWeatherMap</a> - used to search for weather data by city.
