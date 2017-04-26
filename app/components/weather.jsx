@@ -38,7 +38,7 @@ var Weather = React.createClass({
         function renderMessage() {
             if (isLoading) {
                 return (
-                    <h3 className="text-center">
+                    <h3 className="text-center ">
                         Fetching Weather...
                     </h3>
                 )
@@ -59,7 +59,7 @@ var Weather = React.createClass({
 
         return (
             <div id='weather'>
-                <h1 className="text-center">Get Weather</h1>
+                <h1 className="text-center page-title ">Get Weather</h1>
                 <WeatherForm onSearch={this.handleSearch} />
                 {renderMessage()}
                 {renderError()}
